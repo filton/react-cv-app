@@ -353,7 +353,7 @@ body {
 
 .projects-container {
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: 50%;
   grid-gap: 10px;
 }
 
@@ -555,15 +555,17 @@ body {
     font-size: 20px;
     grid-gap: 5px;
     padding: 10px;  
-
   }
   .skills-container {
     grid-template: 115px 115px 115px 115px 115px / auto;
     margin: 10px;
   }
   .projects-container {
-    grid-template-columns: auto;
+    display: block;
     margin: 10px;
+  }
+  .projects-container div {
+    margin: 10px 0;
   }
   br {display: none;}
   .projects-container img {
@@ -664,10 +666,11 @@ body {
     margin: auto;
   }
   .skills-container {
-    grid-template: 115px 115px 115px / auto auto;
+    grid-template: 115px 115px 115px / 50% auto;
     margin: 10px;
   }
   .projects-container {
+    grid-template-columns: 50%;
     margin: 10px;
   }
   .projects-container img {
