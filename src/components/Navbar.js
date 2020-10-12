@@ -19,7 +19,7 @@ const Navbar = () => {
       <nav className="navbar">
         <ul>
           <li className="tooltip">
-            <NavLink exact to="/" activeClassName="active-link"><FiUser /></NavLink>
+            <NavLink exact to="/react-cv-app" activeClassName="active-link"><FiUser /></NavLink>
             <span className="tooltiptext">About me</span>
           </li>
           <li className="tooltip">
@@ -47,7 +47,7 @@ const Navbar = () => {
         <p>Junior Front-End Developer</p>
       </div>
       <Switch>
-        <Route path="/" exact component={Profile} />
+        <Route path="/react-cv-app" exact component={Profile} />
         <Route path="/skills-education" component={SkillsAndEducation} />
         <Route path="/projects" component={Projects} />
         <Route path="/certificates" component={Certificate} />
