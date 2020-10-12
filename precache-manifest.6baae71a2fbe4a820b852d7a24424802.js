@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a82e3fa8419f33ad3f3b448507f7162d",
+    "revision": "82a094b0c979bbf6649e24bf7067925d",
     "url": "/react-cv-app/index.html"
   },
   {
