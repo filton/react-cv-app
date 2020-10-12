@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Route, Switch, NavLink } from "react-router-dom";
+import { BrowserRouter, Route, Switch, NavLink, Redirect } from "react-router-dom";
 import Profile from "./Profile";
 import SkillsAndEducation from "./SkillsAndEducation";
 import Projects from "./Projects";
@@ -52,6 +52,8 @@ const Navbar = () => {
         <Route path="/projects" component={Projects} />
         <Route path="/certificates" component={Certificate} />
         <Route path="/contact" component={ContactMe} />
+
+        <Redirect from="/" to="/reac-cv-app" />
       </Switch>
     </BrowserRouter>
   );
