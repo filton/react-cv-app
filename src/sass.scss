@@ -136,9 +136,11 @@ body {
 }
 
 .right-side {
-  margin: 70px 640px;
   height: 660px;
   width: 650px;
+  position: fixed;
+  top: 70px;
+  left: 650px;
   overflow-y: scroll;
   overflow-x: hidden;
   background-color: $grayColor;
