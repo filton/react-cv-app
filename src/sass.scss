@@ -489,20 +489,20 @@ body {
     height: 500px;
     width: 60px;
     position: fixed;
-    left: 120px;
+    left: 50px;
   }
   .navbar-flags {
     width: 60px;
     position: fixed;
     top: 465px;
-    left: 120px;
+    left: 50px;
   }
   .tooltiptext {display: none;}
   .left-side {display: none}
   .right-side {
     height: 500px;
     width: 300px;
-    margin-left: 185px;
+    left: 115px;
   }
   .right-side h1 {
     font-size: 25px;
@@ -598,20 +598,21 @@ body {
     width: 60px;
     position: fixed;
     top: 70px;
-    left: 80px;
+    left: 50px;
   }
   .navbar-flags {
     width: 60px;
     position: fixed;
     top: 620px;
-    left: 80px;
+    left: 50px;
   }
   .tooltiptext {display: none;}
   .left-side {display: none}
   .right-side {
     height: 650px;
     width: 530px;
-    margin: 70px 145px;
+    top: 70px;
+    left: 115px;
   }
   .right-side h1 {
     font-size: 25px;
