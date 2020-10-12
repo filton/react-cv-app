@@ -1,6 +1,6 @@
 import React, { Suspense } from "react";
 import Navbar from "./components/Navbar";
-import "./components/i18n";
+import "./i18n";
 
 function App() {
   return (
